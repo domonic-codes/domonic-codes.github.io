@@ -4,54 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domonic Melton | Aspiring Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<link rel="stylesheet" href="style.css"> 
 
 <body>
 
-    <header>
-        <h1>Domonic Melton</h1>
-        <h2>Aspiring Software Engineer</h2>
-        <p>I build software to solve problems and learn how technology works.</p>
+    <nav>
+        <div class="logo">DM</div>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <p class="eyebrow">ASPIRING SOFTWARE ENGINEER</p>
+
+        <h1>Domonic<br><span>Melton</span></h1>
+
+        <p class="hero-text">
+            I build software to solve problems, explore technology
+            and turn ideas into working projects.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="button">View My Projects</a>
+            <a href="https://github.com/domonic-codes" class="button secondary">GitHub</a>
+        </div>
     </header>
 
     <main>
 
-        <section>
-            <h2>About Me</h2>
-            <p>
-                I'm an aspiring software engineer with a growing interest in
-                programming, artificial intelligence, automation and technology.
+        <section id="about" class="section">
+            <p class="section-label">01 — ABOUT</p>
+
+            <h2>Building. Learning.<br><span>Improving.</span></h2>
+
+            <p class="section-text">
+                I'm an aspiring software engineer who enjoys building
+                practical projects and learning how software works.
+                I'm particularly interested in programming, artificial
+                intelligence, automation and technology.
+            </p>
+
+            <p class="section-text">
+                I learn best by creating things, solving problems and
+                figuring out how to improve what I've built.
             </p>
         </section>
 
-        <section>
-            <h2>Projects</h2>
+        <section id="projects" class="section">
+            <p class="section-label">02 — PROJECTS</p>
 
-            <article>
-                <h3>JARVIS</h3>
-                <p>Personal voice assistant built with Kotlin and Android.</p>
-            </article>
+            <h2>Things I've<br><span>Built.</span></h2>
 
-            <article>
-                <h3>Raspberry Pi Projects</h3>
-                <p>Software and automation projects built using Raspberry Pi.</p>
-            </article>
+            <div class="projects">
 
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>JARVIS</h3>
+                    <p>
+                        A personal voice assistant for Android featuring
+                        voice commands, speech recognition, text-to-speech,
+                        APIs and AI-powered conversations.
+                    </p>
+
+                    <div class="tags">
+                        <span>Kotlin</span>
+                        <span>Android</span>
+                        <span>AI</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Raspberry Pi Projects</h3>
+                    <p>
+                        Software projects exploring Python, Linux,
+                        networking, automation and Raspberry Pi systems.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Linux</span>
+                        <span>Raspberry Pi</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+                    <h3>More Coming Soon</h3>
+                    <p>
+                        New software and engineering projects will be
+                        added as I continue learning and developing.
+                    </p>
+
+                    <div class="tags">
+                        <span>Learning</span>
+                        <span>Building</span>
+                    </div>
+                </article>
+
+            </div>
         </section>
 
-        <section>
-            <h2>Skills</h2>
-            <p>Python • Kotlin • Android • GitHub • Raspberry Pi • AI</p>
+        <section id="skills" class="section">
+            <p class="section-label">03 — SKILLS</p>
+
+            <h2>What I'm<br><span>Learning.</span></h2>
+
+            <div class="skills-grid">
+                <div>Python</div>
+                <div>Kotlin</div>
+                <div>Android</div>
+                <div>Git & GitHub</div>
+                <div>Raspberry Pi</div>
+                <div>APIs</div>
+                <div>Artificial Intelligence</div>
+                <div>Problem Solving</div>
+            </div>
         </section>
 
-        <section>
-            <h2>Contact</h2>
-            <p>GitHub: domonic-codes</p>
+        <section id="contact" class="section contact">
+            <p class="section-label">04 — CONTACT</p>
+
+            <h2>Let's build<br><span>something.</span></h2>
+
+            <p class="section-text">
+                I'm always interested in learning, building new projects
+                and developing my software engineering skills.
+            </p>
+
+            <a href="https://github.com/domonic-codes" class="button">
+                GitHub — domonic-codes
+            </a>
         </section>
 
     </main>
+
+    <footer>
+        <p>© 2026 Domonic Melton</p>
+        <p>Aspiring Software Engineer</p>
+    </footer>
 
 </body>
 </html>
